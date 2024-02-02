@@ -5,7 +5,7 @@ from Chapter_4.quick_sort import recursion_quick_sort
 
 class TestChapterThree_QSORT(unittest.TestCase):
     def setUp(self):
-        self.source_list = [x for x in range(1, 100)]
+        self.source_list = [x for x in range(1, 1000)]
         self.base_list = self.source_list[:]
         shuffle(self.source_list)
 
