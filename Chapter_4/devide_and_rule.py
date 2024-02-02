@@ -1,4 +1,4 @@
-class DevideAndRule():
+class DevideAndRule:
     """Поиск максимального размера квадрата, при разделении поля"""
     def __init__(self, field=(1680, 640)):
         """Инициализация обьекта"""
